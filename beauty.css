@@ -439,6 +439,20 @@ h2 {
   border: 0;
 }
 
+.map-fallback {
+  margin: 0.6rem 0 0;
+}
+
+.map-fallback a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.map-fallback a:hover {
+  text-decoration: underline;
+}
+
 .site-footer {
   background: linear-gradient(120deg, #2f102f 0%, #4a154b 100%);
   color: #fff;
